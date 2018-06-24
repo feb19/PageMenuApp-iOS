@@ -1,0 +1,22 @@
+PODS:
+  - PageMenu (2.0.0)
+
+DEPENDENCIES:
+  - "PageMenu (from `git@github.com:ry-kgy/PageMenu.git`, branch `swift4.1ver`)"
+
+EXTERNAL SOURCES:
+  PageMenu:
+    :branch: swift4.1ver
+    :git: "git@github.com:ry-kgy/PageMenu.git"
+
+CHECKOUT OPTIONS:
+  PageMenu:
+    :commit: 6a2d7ff6f5e2d92c03f8cfa369e24ec5606d7b31
+    :git: "git@github.com:ry-kgy/PageMenu.git"
+
+SPEC CHECKSUMS:
+  PageMenu: 50134deb498b120cfcd086fee1bce35a4b2f9c81
+
+PODFILE CHECKSUM: 5b30b7789881aefa1fc5bcd2f78d05e7e13ba108
+
+COCOAPODS: 1.5.3
