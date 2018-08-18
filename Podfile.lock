@@ -1,8 +1,14 @@
 PODS:
   - PageMenu (2.0.0)
+  - SideMenu (4.0.0)
 
 DEPENDENCIES:
   - "PageMenu (from `git@github.com:ry-kgy/PageMenu.git`, branch `swift4.1ver`)"
+  - SideMenu
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SideMenu
 
 EXTERNAL SOURCES:
   PageMenu:
@@ -16,7 +22,8 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   PageMenu: 50134deb498b120cfcd086fee1bce35a4b2f9c81
+  SideMenu: 70ee5657df63ec3382660ec4ef470bf1cf5db07d
 
-PODFILE CHECKSUM: 5b30b7789881aefa1fc5bcd2f78d05e7e13ba108
+PODFILE CHECKSUM: dc112e4935df2bac193ee48b4bd07eefd04bd200
 
 COCOAPODS: 1.5.3

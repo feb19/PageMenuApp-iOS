@@ -7,5 +7,6 @@ target 'PageMenuApp' do
 
   # Pods for PageMenuApp
   pod 'PageMenu', :git => 'git@github.com:ry-kgy/PageMenu.git', :branch => 'swift4.1ver'
+  pod 'SideMenu'
 
 end

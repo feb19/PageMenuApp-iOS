@@ -8,12 +8,14 @@
 
 import UIKit
 import PageMenu
+import SideMenu
 
 class ViewController: UIViewController {
     var pageMenu : CAPSPageMenu?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        SideMenuManager.default.menuFadeStatusBar = false
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -49,6 +51,9 @@ class ViewController: UIViewController {
         controller6.title = "list6"
         controllerArray.append(controller6)
         
+        
+        SideMenuManager.default.menuAddPanGestureToPresent(toView: self.navigationController!.navigationBar)
+        SideMenuManager.default.menuAddScreenEdgePanGesturesToPresent(toView: controller.view)
         
         // setup
         let parameters: [CAPSPageMenuOption] = [
